@@ -6,7 +6,6 @@ filetype on
 filetype plugin on
 filetype indent on
 set expandtab
-set relativenumber
 set textwidth=78
 set autoindent
 set showmatch
@@ -53,6 +52,4 @@ autocmd FileType coffee compiler espresso
 
 " Actionscript
 au BufNewFile,BufRead *.as set filetype=actionscript
-
-imap jj <Esc>
 
