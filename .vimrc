@@ -52,4 +52,5 @@ autocmd FileType coffee compiler espresso
 
 " Actionscript
 au BufNewFile,BufRead *.as set filetype=actionscript
+:imap jj <Esc>
 

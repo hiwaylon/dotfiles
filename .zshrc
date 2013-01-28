@@ -26,7 +26,7 @@ COMPLETION_WAITING_DOTS="true"
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git)
+plugins=(git sublime)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -36,7 +36,8 @@ export PATH=/usr/local/bin:$PATH:/usr/bin:/bin:/usr/sbin:/sbin:/usr/X11/bin:/usr
 alias nt='nosetests -s -x -v --rednose '
 alias pl='pylint -i y -r n -f colorized --rcfile=pylint.rc '
 alias pg='grep -E -n -r --color --include="*.py" '
+alias jg='grep -E -n -r --color --include="*.js" '
 alias mate2='/Applications/TextMate\ 2.0\ \(alpha\).app/Contents/MacOS/TextMate'
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
 
-source ~/zshprivate.sh
+source ~/.zshprivate.sh
